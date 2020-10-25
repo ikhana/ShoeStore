@@ -1,0 +1,40 @@
+body{
+  text-align: center;
+  justify-content: center;
+  background: url("./pictures/skateborder-1096192_1920.jpg") ;
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  
+  background-size: cover;
+ 
+}
+.productContainer{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+ 
+}
+.link{
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 0 10px rgb(90, 86, 61);
+  justify-content: center;
+  margin: 10px;
+  background-color: rgba(255, 241, 47, 0.151);
+}
+.link:hover{
+ background-color: rgba(202, 128, 43, 0.301);
+}
+.productitem{
+  justify-content: right;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 0 100px rgb(201, 178, 47);
+  margin: 10px;
+}
+.nav{
+  margin: 20px;
+  padding: 10px;
+}
