@@ -11,7 +11,7 @@ function ProductItem() {
   return (
     <div  className="productitem" >
     <h3>{shoe.name}</h3>
-    <img src={shoe.img} height={300} alt="picture  from pixabay"></img>
+    <img src={shoe.img} height={300} alt="pixabay"></img>
     </div>
   );
 }
